@@ -23,7 +23,7 @@ It should look something like this:
 ## Terminal Commands
 
 5. There are many commands you can run in Git Bash
-Here are some of the most important commands for navigating your files:
+Here are some of the most important commands for navigating your files (don't include brackets):
 ```
 cd [insert directory]                 #change directory
 ls                                    #list files
