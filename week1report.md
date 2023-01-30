@@ -6,7 +6,7 @@
 
 2. Open VS code. It should look like this:
 
-![](Lab 1/VSCode.png)
+![](Lab\ 1/VSCode.png)
 
 ## Using SSH from Git Bash
 
@@ -18,7 +18,7 @@ $ ssh [insert username]@ieng6ucsd.edu
 ```
 It should look something like this:
 
-![](Lab 1/ssh_image.png)
+![](Lab\ 1/ssh_image.png)
 
 ## Terminal Commands
 
@@ -35,6 +35,6 @@ mkdir [insert directory]              #make directory
 
 When you run them, it should look something like this:
 
-![](Lab 1/commands.png)
+![](Lab\ 1/commands.png)
 
 ## Good Job
