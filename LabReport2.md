@@ -81,7 +81,7 @@ static int[] reversed(int[] arr) {
 1. The following JUnit test resulted in a failure:
 ```
 @Test
-public void reversedTest() {
+public void reversedTestFail() {
   int[] input1 = {1};
   assertArrayEquals(new int[]{1}, ArrayExamples.reversed(input1));
 }
@@ -90,14 +90,15 @@ public void reversedTest() {
 2. The following JUnit test resulted in a success:
 ```
 @Test
-public void reversedTest() {
+public void reversedTestPass() {
   int[] input1 = {0};
   assertArrayEquals(new int[]{1}, ArrayExamples.reversed(input1));
 }
 ```
 
 3.
-*** Incomplete ***
+Here is what it looks like when these two tests are run. As you can see, the first test failed because the returned array was {0} instead of {1}.
+![JUnit Tests](https://user-images.githubusercontent.com/66804382/215600161-e211d6fc-e64e-4dab-8bc2-e93438f7ba03.png)
 
 4. Here is the original incorrect code and fixed code for the reversed method  
 Before:
@@ -120,9 +121,9 @@ static int[] reversed(int[] arr) {
   return arr;
 }
 ```
-This code works because we switched the "newArray" and "arr" in the 4th line  
+The new code works because we switched the "newArray" and "arr" in the 4th line  
 The original code sets the input array (arr) equal to the reverse of the newly created array (newArray), which just sets all the values to 0.  
-After these two values are switched, each element of the new array (newArray) is replaced by the elements of the input array (arr) in reverse order, which is correct.
+After we fixed the code, each element of the new array (newArray) is replaced by the elements of the input array (arr) in reverse order, which is correct.
 
 # **Part 3: Reflect**
 Before lab 2, I didn't know how to set up a web server through Java. In the lab, I learned how to host a web server from my own device and through SSHing into another device.
