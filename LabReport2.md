@@ -98,8 +98,7 @@ public void reversedTestPass() {
 }
 ```
 
-3.
-Here is what it looks like when these two tests are run. As you can see, the first test failed because the returned array was {0} instead of {1}.
+3. Here is what it looks like when these two tests are run. As you can see, the first test failed because the returned array was {0} instead of {1}.
 ![JUnit Tests](https://user-images.githubusercontent.com/66804382/215600161-e211d6fc-e64e-4dab-8bc2-e93438f7ba03.png)
 
 4. Here is the original incorrect code and fixed code for the reversed method  
